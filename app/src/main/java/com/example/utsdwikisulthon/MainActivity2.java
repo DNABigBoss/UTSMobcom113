@@ -86,6 +86,7 @@ public class MainActivity2 extends AppCompatActivity {
                 });
                 AlertDialog dialog = builder.create();
                 dialog.show();
+                break;
             case R.id.action_edit:
                 LayoutInflater layoutInflater = LayoutInflater.from(MainActivity2.this);
                 View popupInputDialogView = layoutInflater.inflate(R.layout.popup_input_dialog, null);
@@ -112,6 +113,7 @@ public class MainActivity2 extends AppCompatActivity {
                 });
                 AlertDialog dialog1 = builder1.create();
                 dialog1.show();
+                break;
         }
         return  false;
 //        return super.onOptionsItemSelected(item);
